@@ -64,7 +64,7 @@
     "classnames": "^2.2.5",
     "json2mq": "^0.2.0",
     "object-assign": "^4.1.0",
-    "react-responsive-mixin": "^0.4.0",
+    "react-responsive-mixin": "git+https://github.com/ettaibi/react-responsive-mixin.git",
     "slick-carousel": "^1.6.0"
   },
   "peerDependencies": {
@@ -72,7 +72,9 @@
     "react-dom": "^0.14.0 || ^15.0.1"
   },
   "jest": {
-    "setupFiles": ["test-setup.js"]
+    "setupFiles": [
+      "test-setup.js"
+    ]
   },
   "npmName": "react-slick",
   "npmFileMap": [
